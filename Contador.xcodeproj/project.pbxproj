@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29DB10EF1E8EEADA004C21BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB10EE1E8EEADA004C21BF /* AppDelegate.swift */; };
+		29DB10F11E8EEADA004C21BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB10F01E8EEADA004C21BF /* ViewController.swift */; };
+		29DB10F41E8EEADA004C21BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29DB10F21E8EEADA004C21BF /* Main.storyboard */; };
+		29DB10F61E8EEADA004C21BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DB10F51E8EEADA004C21BF /* Assets.xcassets */; };
+		29DB10F91E8EEADA004C21BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29DB10F71E8EEADA004C21BF /* LaunchScreen.storyboard */; };
+		29DB11041E8EEADA004C21BF /* ContadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB11031E8EEADA004C21BF /* ContadorTests.swift */; };
+		29DB110F1E8EEADA004C21BF /* ContadorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB110E1E8EEADA004C21BF /* ContadorUITests.swift */; };
+		29DB111E1E8F1A1E004C21BF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DB111D1E8F1A1E004C21BF /* MapKit.framework */; };
+		29DB11211E8F1A2E004C21BF /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DB11201E8F1A2E004C21BF /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29DB11001E8EEADA004C21BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29DB10E31E8EEADA004C21BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29DB10EA1E8EEADA004C21BF;
+			remoteInfo = Contador;
+		};
+		29DB110B1E8EEADA004C21BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29DB10E31E8EEADA004C21BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29DB10EA1E8EEADA004C21BF;
+			remoteInfo = Contador;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29DB10EB1E8EEADA004C21BF /* Contador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DB10EE1E8EEADA004C21BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29DB10F01E8EEADA004C21BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29DB10F31E8EEADA004C21BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29DB10F51E8EEADA004C21BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29DB10F81E8EEADA004C21BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29DB10FA1E8EEADA004C21BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DB10FF1E8EEADA004C21BF /* ContadorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DB11031E8EEADA004C21BF /* ContadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorTests.swift; sourceTree = "<group>"; };
+		29DB11051E8EEADA004C21BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DB110A1E8EEADA004C21BF /* ContadorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DB110E1E8EEADA004C21BF /* ContadorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorUITests.swift; sourceTree = "<group>"; };
+		29DB11101E8EEADA004C21BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DB111D1E8F1A1E004C21BF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		29DB111F1E8F1A27004C21BF /* Contador.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Contador.entitlements; sourceTree = "<group>"; };
+		29DB11201E8F1A2E004C21BF /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29DB10E81E8EEADA004C21BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DB11211E8F1A2E004C21BF /* ExternalAccessory.framework in Frameworks */,
+				29DB111E1E8F1A1E004C21BF /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DB10FC1E8EEADA004C21BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DB11071E8EEADA004C21BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29DB10E21E8EEADA004C21BF = {
+			isa = PBXGroup;
+			children = (
+				29DB10ED1E8EEADA004C21BF /* Contador */,
+				29DB11021E8EEADA004C21BF /* ContadorTests */,
+				29DB110D1E8EEADA004C21BF /* ContadorUITests */,
+				29DB10EC1E8EEADA004C21BF /* Products */,
+				29DB111C1E8F1A1E004C21BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29DB10EC1E8EEADA004C21BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29DB10EB1E8EEADA004C21BF /* Contador.app */,
+				29DB10FF1E8EEADA004C21BF /* ContadorTests.xctest */,
+				29DB110A1E8EEADA004C21BF /* ContadorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29DB10ED1E8EEADA004C21BF /* Contador */ = {
+			isa = PBXGroup;
+			children = (
+				29DB111F1E8F1A27004C21BF /* Contador.entitlements */,
+				29DB10EE1E8EEADA004C21BF /* AppDelegate.swift */,
+				29DB10F01E8EEADA004C21BF /* ViewController.swift */,
+				29DB10F21E8EEADA004C21BF /* Main.storyboard */,
+				29DB10F51E8EEADA004C21BF /* Assets.xcassets */,
+				29DB10F71E8EEADA004C21BF /* LaunchScreen.storyboard */,
+				29DB10FA1E8EEADA004C21BF /* Info.plist */,
+			);
+			path = Contador;
+			sourceTree = "<group>";
+		};
+		29DB11021E8EEADA004C21BF /* ContadorTests */ = {
+			isa = PBXGroup;
+			children = (
+				29DB11031E8EEADA004C21BF /* ContadorTests.swift */,
+				29DB11051E8EEADA004C21BF /* Info.plist */,
+			);
+			path = ContadorTests;
+			sourceTree = "<group>";
+		};
+		29DB110D1E8EEADA004C21BF /* ContadorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29DB110E1E8EEADA004C21BF /* ContadorUITests.swift */,
+				29DB11101E8EEADA004C21BF /* Info.plist */,
+			);
+			path = ContadorUITests;
+			sourceTree = "<group>";
+		};
+		29DB111C1E8F1A1E004C21BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29DB11201E8F1A2E004C21BF /* ExternalAccessory.framework */,
+				29DB111D1E8F1A1E004C21BF /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29DB10EA1E8EEADA004C21BF /* Contador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DB11131E8EEADA004C21BF /* Build configuration list for PBXNativeTarget "Contador" */;
+			buildPhases = (
+				29DB10E71E8EEADA004C21BF /* Sources */,
+				29DB10E81E8EEADA004C21BF /* Frameworks */,
+				29DB10E91E8EEADA004C21BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contador;
+			productName = Contador;
+			productReference = 29DB10EB1E8EEADA004C21BF /* Contador.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29DB10FE1E8EEADA004C21BF /* ContadorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DB11161E8EEADA004C21BF /* Build configuration list for PBXNativeTarget "ContadorTests" */;
+			buildPhases = (
+				29DB10FB1E8EEADA004C21BF /* Sources */,
+				29DB10FC1E8EEADA004C21BF /* Frameworks */,
+				29DB10FD1E8EEADA004C21BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29DB11011E8EEADA004C21BF /* PBXTargetDependency */,
+			);
+			name = ContadorTests;
+			productName = ContadorTests;
+			productReference = 29DB10FF1E8EEADA004C21BF /* ContadorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29DB11091E8EEADA004C21BF /* ContadorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DB11191E8EEADA004C21BF /* Build configuration list for PBXNativeTarget "ContadorUITests" */;
+			buildPhases = (
+				29DB11061E8EEADA004C21BF /* Sources */,
+				29DB11071E8EEADA004C21BF /* Frameworks */,
+				29DB11081E8EEADA004C21BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29DB110C1E8EEADA004C21BF /* PBXTargetDependency */,
+			);
+			name = ContadorUITests;
+			productName = ContadorUITests;
+			productReference = 29DB110A1E8EEADA004C21BF /* ContadorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29DB10E31E8EEADA004C21BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alberto Luebbert M.";
+				TargetAttributes = {
+					29DB10EA1E8EEADA004C21BF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7RDEBRCE3A;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+					29DB10FE1E8EEADA004C21BF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29DB10EA1E8EEADA004C21BF;
+					};
+					29DB11091E8EEADA004C21BF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29DB10EA1E8EEADA004C21BF;
+					};
+				};
+			};
+			buildConfigurationList = 29DB10E61E8EEADA004C21BF /* Build configuration list for PBXProject "Contador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29DB10E21E8EEADA004C21BF;
+			productRefGroup = 29DB10EC1E8EEADA004C21BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29DB10EA1E8EEADA004C21BF /* Contador */,
+				29DB10FE1E8EEADA004C21BF /* ContadorTests */,
+				29DB11091E8EEADA004C21BF /* ContadorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29DB10E91E8EEADA004C21BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DB10F91E8EEADA004C21BF /* LaunchScreen.storyboard in Resources */,
+				29DB10F61E8EEADA004C21BF /* Assets.xcassets in Resources */,
+				29DB10F41E8EEADA004C21BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DB10FD1E8EEADA004C21BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DB11081E8EEADA004C21BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29DB10E71E8EEADA004C21BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DB10F11E8EEADA004C21BF /* ViewController.swift in Sources */,
+				29DB10EF1E8EEADA004C21BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DB10FB1E8EEADA004C21BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DB11041E8EEADA004C21BF /* ContadorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DB11061E8EEADA004C21BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DB110F1E8EEADA004C21BF /* ContadorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29DB11011E8EEADA004C21BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29DB10EA1E8EEADA004C21BF /* Contador */;
+			targetProxy = 29DB11001E8EEADA004C21BF /* PBXContainerItemProxy */;
+		};
+		29DB110C1E8EEADA004C21BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29DB10EA1E8EEADA004C21BF /* Contador */;
+			targetProxy = 29DB110B1E8EEADA004C21BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29DB10F21E8EEADA004C21BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DB10F31E8EEADA004C21BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29DB10F71E8EEADA004C21BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DB10F81E8EEADA004C21BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29DB11111E8EEADA004C21BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29DB11121E8EEADA004C21BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29DB11141E8EEADA004C21BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Contador/Contador.entitlements;
+				DEVELOPMENT_TEAM = 7RDEBRCE3A;
+				INFOPLIST_FILE = Contador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideashappy.Contador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		29DB11151E8EEADA004C21BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Contador/Contador.entitlements;
+				DEVELOPMENT_TEAM = 7RDEBRCE3A;
+				INFOPLIST_FILE = Contador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideashappy.Contador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		29DB11171E8EEADA004C21BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContadorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideashappy.ContadorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contador.app/Contador";
+			};
+			name = Debug;
+		};
+		29DB11181E8EEADA004C21BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContadorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideashappy.ContadorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contador.app/Contador";
+			};
+			name = Release;
+		};
+		29DB111A1E8EEADA004C21BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ContadorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideashappy.ContadorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Contador;
+			};
+			name = Debug;
+		};
+		29DB111B1E8EEADA004C21BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ContadorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ideashappy.ContadorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Contador;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29DB10E61E8EEADA004C21BF /* Build configuration list for PBXProject "Contador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DB11111E8EEADA004C21BF /* Debug */,
+				29DB11121E8EEADA004C21BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DB11131E8EEADA004C21BF /* Build configuration list for PBXNativeTarget "Contador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DB11141E8EEADA004C21BF /* Debug */,
+				29DB11151E8EEADA004C21BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DB11161E8EEADA004C21BF /* Build configuration list for PBXNativeTarget "ContadorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DB11171E8EEADA004C21BF /* Debug */,
+				29DB11181E8EEADA004C21BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DB11191E8EEADA004C21BF /* Build configuration list for PBXNativeTarget "ContadorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DB111A1E8EEADA004C21BF /* Debug */,
+				29DB111B1E8EEADA004C21BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29DB10E31E8EEADA004C21BF /* Project object */;
+}
